@@ -2,6 +2,15 @@ package main
 
 import "testing"
 
-func TestMain(t *testing.T) {
+func TestMain1(t *testing.T) {
+	t.Fatal("_________________________error_____________________________________")
+}
+func TestMain2(t *testing.T) {
+	t.Fatal("_________________________error_____________________________________")
+}
+func TestMain3(t *testing.T) {
+	t.Fatal("_________________________error_____________________________________")
+}
+func TestMain4(t *testing.T) {
 	t.Fatal("_________________________error_____________________________________")
 }
