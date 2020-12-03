@@ -7,5 +7,5 @@ jobs:
       # `golangci-lint --output-format=github-actions` error message line format
       - run: echo '::error file=path/to/source.go,line=367,col=16::error message (lint tool name)'
       # improve format to output line number and file name to github actions log
-      - run: echo "::add-matcher::matcher.json"
+      - run: echo ::add-matcher::matcher.json
       - run: echo '::error::file=path/to/source.go,line=367,col=16 error message (lint tool name)'
