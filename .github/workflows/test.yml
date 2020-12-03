@@ -2,7 +2,7 @@ on:
   push
 jobs:
   test: 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       # `golangci-lint --output-format=github-actions` error message line format
       - run: echo '::error file=path/to/source.go,line=367,col=16::error message (lint tool name)'
