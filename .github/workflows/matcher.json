@@ -4,10 +4,11 @@
 			"owner": "takehito",
 			"pattern": [
 				{
-					"regexp": "^\\s*(.+):(\\d+): (.+)$",
+					"regexp": "^::error::file=(.+),line=(\\d+),col=(\\d+) (.+)$",
 					"file": 1,
 					"line": 2,
-					"message": 3
+					"collumn": 3,
+					"message": 4
 				}
 			]
 		}
